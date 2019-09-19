@@ -26,8 +26,20 @@ public class Main {
         System.out.println(sum);
         System.out.println(average);
 
-        double a = 42;
-        System.out.println(a/7);
+        double g = 42;
+        System.out.println(g/2);
+
+        float a = -5+8*6f;
+        System.out.println(a);
+
+        int b = (55+9) % 9;
+        System.out.println(b);
+
+        int c = 20 + -3*5 / 8;
+        System.out.println(c);
+
+        float d = 5 + 15 / 3 * 2 - 8 % 3f;
+        System.out.println(d);
 
 
 
