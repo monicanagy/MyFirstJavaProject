@@ -7,9 +7,13 @@ public class Cat {
     float weight = 9.5f;
     float age = 4f;
     char gender = 'f';
-    String name = "Mura";
+    String name = "Mita";
+    float health = 9f;
+    float hunger = 3f;
+    float mood = 9f;
 
-    public String mieunat() {
+
+    public String miaow() {
         return ("miauuu!");
     }
     public void eat() {

@@ -34,9 +34,6 @@ public class Main {
         float min = first-second;
         return min;
 
-
-
-
     }
 
 
