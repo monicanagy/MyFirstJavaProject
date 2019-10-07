@@ -16,6 +16,16 @@ public class Main {
         result=mult(x,y);
         System.out.println(result);
 
+        printMyName();
+        int a= 2;
+        int b= 4;
+        int sum= a+b;
+
+
+
+
+
+
 
 
 
@@ -41,6 +51,12 @@ public class Main {
     public static int mult(int first, int second){
         int mult= first*second;
         return mult;
+    }
+    public static void printMyName(){
+        System.out.println("Hello\n Monica");
+    }
+
+
     }
 
 }
