@@ -17,9 +17,7 @@ public class Main {
         System.out.println(result);
 
         printMyName();
-        int a= 2;
-        int b= 4;
-        int sum= a+b;
+
 
 
 
