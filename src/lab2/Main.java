@@ -3,20 +3,22 @@ package lab2;
 public class Main {
 
     public static void main(String[] args) {
+        int a=2;
+        int b=3;
+        int result=sum(a,b);
+        System.out.println("Rezultatul adunarii este:"+result);
+        float res=min(a,b);
+        System.out.println("Rezultatul scaderii este:"+res);
 
 
-        int x = 3;
-        int y = 5;
-        float result = sum(x, y);
-        System.out.println(result);
-        result=min(x,y);
-        System.out.println(result);
-        result=div(x,y);
-        System.out.println(result);
-        result=mult(x,y);
-        System.out.println(result);
 
-        printMyName();
+
+
+
+
+
+
+
 
 
 
@@ -29,35 +31,19 @@ public class Main {
 
 
     }
-
-
-
-
 
     public static int sum(int first, int second) {
-        int sum = first + second;
-        return sum;
+        int result=first+second;
+        return result;
     }
-    public static float min(float first, float second) {
-        float min = first - second;
-        return min;
-    }
-    public static float div(float first, float second){
-        float div= first/second;
-        return div;
-    }
-    public static int mult(int first, int second){
-        int mult= first*second;
-        return mult;
-    }
-    public static void printMyName(){
-        System.out.println("Hello\n Monica");
+    public static float min(float first,float second){
+        float result=first-second;
+        return result;
     }
 
-
-    }
 
 }
+
 
 
 
