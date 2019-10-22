@@ -1,8 +1,6 @@
 package lab3.Calculator;
 
 public class LogicalOp {
-
-
     public String verifyText(String text) {
         if (text.equals("FastTrack"))
             return ("Learning text comparison");
@@ -18,6 +16,13 @@ public class LogicalOp {
         else
             return (0);
 
+
     }
+    public int checkBiggerNumber(int first, int second){
+        if(first>second)
+            return first;
+        else
+            return second;
+}
 }
 
