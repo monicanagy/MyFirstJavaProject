@@ -8,7 +8,7 @@ public class Main<number> {
         //Given number, while the number is equal to or lower than 100, print the number
         //int number = 2;
         //for (int i = number; i <= 100; i++) {
-            //System.out.println(i);
+        //System.out.println(i);
 
         // FOR
         // Write a java program to count backwards from a given number to a lower given number
@@ -25,14 +25,13 @@ public class Main<number> {
         //an int variable called count to count the numbers in the specified range.
         //float sum = 0;
         //int x = 111;
-       // int count = 0;
+        // int count = 0;
         //while (x <= 8899) {
-            //sum = sum + x;
-           // x++;
-            //count++;
-           // System.out.println(sum);
-            //System.out.println(sum / count);
-
+        //sum = sum + x;
+        // x++;
+        //count++;
+        // System.out.println(sum);
+        //System.out.println(sum / count);
 
 
         // Tema Java for Loops
@@ -54,9 +53,9 @@ public class Main<number> {
         // Metoda sa afiseze o numaratoare intre cele doua numere primite, pornind de la primul parametru primit,
         //pana la cel de-al doilea(ex: daca int x e primul parametru iar int y  este cel de-al doilea,
         // numaratoarea sa se faca de la x, la y.
-        int x= 2;
-        int y= 5;
-        for( int i= x; i<=y; i++) {
+        int x = 2;
+        int y = 5;
+        for (int i = x; i <= y; i++) {
             System.out.println(i);
         }
 
@@ -64,14 +63,13 @@ public class Main<number> {
         // Metoda trebuie sa verifice care dintre cele doua numere este mai mare, si sa execute o numaratoare
         // crescatoare de la cel mai mic la cel mai mare.(ex: daca int x e primul parametru iar int y  este cel
         // de-al doilea, daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
-        int a= 10;
-        int b= 7;
-        for( int i= a; i>b; i++){
-            System.out.println(i);
-        }
+
 
     }
+
 }
+
+
 
 
 

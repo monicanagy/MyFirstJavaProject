@@ -42,7 +42,32 @@ public class LogicalOp {
         for( int i= a; i>b; i++){
             System.out.println(i);
         }
+
     }
+    public static void fromBigToSmall( int first, int second){
+        int x;
+        if( first > second){
+            x= second;
+            second= first;
+            first= x;
+
+        }
+    }
+    public float getAverageFromNumber(int x, int y) {
+        float sum = 0;
+        int count = 0;
+        while (x <= y) {
+            if (x % 7 == 0) {
+                sum += x;
+                count++;
+            }
+            x++;
+        }
+        return sum / count;
+
+
+    }
+
 }
 
 
